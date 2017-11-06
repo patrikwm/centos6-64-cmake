@@ -5,6 +5,8 @@ MAINTAINER "Patrik Martin" <patrik.martin@mideye.com>
 RUN yum -y install epel-release && \
     yum -y groupinstall 'Development tools' && \
     yum -y install \
+           rpm-build \
+           git \
            gcc \
            gtest \
            gtest-devel \
